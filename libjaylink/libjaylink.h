@@ -570,6 +570,12 @@ JAYLINK_API int jaylink_file_get_size(struct jaylink_device_handle *devh,
 JAYLINK_API int jaylink_file_delete(struct jaylink_device_handle *devh,
 		const char *filename);
 
+/*--- fine.c ----------------------------------------------------------------*/
+
+JAYLINK_API int jaylink_fine_io(struct jaylink_device_handle *devh,
+		const uint8_t *out, uint8_t *in, uint32_t out_length,
+		uint32_t in_length, uint32_t other_param);
+
 /*--- jtag.c ----------------------------------------------------------------*/
 
 JAYLINK_API int jaylink_jtag_io(struct jaylink_device_handle *devh,

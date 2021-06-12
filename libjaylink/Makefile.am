@@ -36,6 +36,7 @@ libjaylink_la_SOURCES = \
 	emucom.c \
 	error.c \
 	fileio.c \
+	fine.c \
 	jtag.c \
 	list.c \
 	log.c \
