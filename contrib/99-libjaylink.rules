@@ -41,6 +41,7 @@ ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1020", MODE="664", GROUP="plugdev"
 ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1024", MODE="664", GROUP="plugdev"
 ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1051", MODE="664", GROUP="plugdev"
 ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1055", MODE="664", GROUP="plugdev"
+ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1059", MODE="664", GROUP="plugdev"
 ATTRS{idVendor}=="1366", ATTRS{idProduct}=="1061", MODE="664", GROUP="plugdev"
 
 LABEL="libjaylink_end_rules"
