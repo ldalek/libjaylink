@@ -1,12 +1,10 @@
-libjaylink
-==========
+# libjaylink
 
 libjaylink is a shared library written in C to access SEGGER J-Link and
 compatible devices.
 
 
-Requirements
-------------
+## Requirements
 
 libjaylink requires the following packages:
 
@@ -25,8 +23,7 @@ required:
  - Automake >= 1.9
 
 
-Building and installing
------------------------
+## Building and installing
 
 In order to get and build the latest Git version of libjaylink, run the
 following commands:
@@ -43,8 +40,7 @@ libjaylink:
     $ make install
 
 
-Portability
------------
+## Portability
 
 libjaylink supports the following operating systems:
 
@@ -57,14 +53,12 @@ libjaylink supports the following operating systems:
  - OS X
 
 
-Copyright and license
----------------------
+## Copyright and license
 
 libjaylink is licensed under the terms of the GNU General Public License (GPL),
 version 2 or later. See COPYING file for details.
 
 
-Website
--------
+## Website
 
 <https://gitlab.zapb.de/libjaylink/libjaylink.git>
