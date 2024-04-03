@@ -19,10 +19,10 @@ include_dirs = include_directories('libjaylink')
 libusb = dependency(
   'libusb-1.0',
   version: '>=1.0.16',
-  required: false
+  required: option_usb,
 )
 
-have_usb = libusb.found() and (option_usb.enabled() or option_usb.auto())
+have_usb = libusb.found()
 
 if have_usb
   add_project_arguments('-DHAVE_LIBUSB', language: 'c')
