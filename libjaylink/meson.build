@@ -52,7 +52,7 @@ install_headers([
 jaylink = shared_library(
   'jaylink',
   sources,
-  dependencies: [libusb],
+  dependencies: [libusb, ws2_32],
   version: library_version_string,
   include_directories: include_dirs,
   install: true,

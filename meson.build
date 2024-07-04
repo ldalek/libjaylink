@@ -12,6 +12,9 @@ project(
 project_description = 'Library to access J-Link devices'
 project_url = 'https://gitlab.zapb.de/libjaylink/libjaylink.git'
 
+cc = meson.get_compiler('c')
+build_system = build_machine.system()
+
 option_usb = get_option('usb')
 
 include_dirs = include_directories('libjaylink')
@@ -21,6 +24,8 @@ libusb = dependency(
   version: '>=1.0.16',
   required: option_usb,
 )
+
+ws2_32 = cc.find_library('ws2_32', required: build_system == 'windows')
 
 have_usb = libusb.found()
 
