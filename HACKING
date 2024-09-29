@@ -1,12 +1,10 @@
-Hacking
-=======
+# Hacking
 
 This document describes how to start hacking on the libjaylink project.
 Make sure you read through the README.md file before continuing.
 
 
-Coding style
-------------
+## Coding style
 
 This project uses the Linux kernel coding style where appropiate, see
 <https://www.kernel.org/doc/Documentation/CodingStyle> for details.
@@ -18,8 +16,7 @@ Amendments to the Linux kernel coding style:
  - Do not assign values to variables at declaration time.
 
 
-Contributions
--------------
+## Contributions
 
 The following ways can be used to submit a contribution to the libjaylink
 project:
@@ -39,8 +36,7 @@ Before submitting, please consider the following:
    *valgrind*.
 
 
-Bug reports
------------
+## Bug reports
 
 Send bug reports directly to <dev@zapb.de>.
 Please try to include all of the following information in your report:
@@ -61,8 +57,7 @@ Please develop and attach a patch that solves the reported bug, if possible.
 See the guidelines for contributions above.
 
 
-Random notes
-------------
+## Random notes
 
  - Always use `log_err()`, `log_warn()`, `log_info()` and `log_dbg()` to output
    messages. Never use `printf()` or similar functions directly.
