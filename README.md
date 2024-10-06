@@ -53,11 +53,17 @@ libjaylink supports the following operating systems:
  - OS X
 
 
+## Support
+
+If you appreciate the project, feel free to donate on Liberapay:
+
+[![Liberapay donation link](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/zapb/donate)
+
+
 ## Copyright and license
 
 libjaylink is licensed under the terms of the GNU General Public License (GPL),
 version 2 or later. See COPYING file for details.
-
 
 ## Website
 
