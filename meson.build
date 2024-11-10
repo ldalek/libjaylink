@@ -66,7 +66,7 @@ endif
 
 library_version = {
   'current': 2,
-  'revision': 0,
+  'revision': 1,
   'age': 2,
 }
 
