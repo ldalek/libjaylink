@@ -1,6 +1,6 @@
 project(
   'libjaylink', 'c',
-  version: '0.3.1',
+  version: '0.4.0',
   license: ' GPL-2.0-or-later',
   meson_version: '>= 0.53.0',
   default_options: [
