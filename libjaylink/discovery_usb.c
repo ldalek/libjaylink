@@ -68,7 +68,8 @@ static const struct {
 	{0x1051, JAYLINK_USB_ADDRESS_0},
 	{0x1055, JAYLINK_USB_ADDRESS_0},
 	{0x1059, JAYLINK_USB_ADDRESS_0},
-	{0x1061, JAYLINK_USB_ADDRESS_0}
+	{0x1060, JAYLINK_USB_ADDRESS_0},
+	{0x1061, JAYLINK_USB_ADDRESS_0},
 };
 
 /** Maximum length of the USB string descriptor for the serial number. */
